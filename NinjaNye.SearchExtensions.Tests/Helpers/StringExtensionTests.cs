@@ -27,8 +27,8 @@ namespace NinjaNye.SearchExtensions.Tests.Helpers
             //Act
             var character = word.GetFirstCharacter();
 
-            //Assert
-            Assert.IsNotNullOrEmpty(character);
+			//Assert
+			Assert.That(character, Is.Not.Null.Or.Not.Empty);
         }
 
         [Test]
