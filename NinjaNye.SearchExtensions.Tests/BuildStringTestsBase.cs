@@ -25,14 +25,12 @@ namespace NinjaNye.SearchExtensions.Tests
             return result;
         }
 
-        protected string BuildRandomWord(int minSize, int maxSize, bool processParallel = true)
+        protected string BuildRandomWord(int minSize, int maxSize)
         {
 			var letterCount = RandomInt(minSize, maxSize);
-
-			var query = Enumerable.Range(0, letterCount);
-			if (processParallel) query = query.AsParallel();
-
-			return new string(query.Select(x => letters[RandomInt(0, 51)]).ToArray());
+			var wordLettes = Enumerable.Range(0, letterCount)
+				.Select(x => letters[RandomInt(0, 51)]);
+			return new string(wordLettes.ToArray());
         }
 
         private int RandomInt(int min, int max)
