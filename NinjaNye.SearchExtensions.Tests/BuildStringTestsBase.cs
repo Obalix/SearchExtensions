@@ -18,7 +18,7 @@ namespace NinjaNye.SearchExtensions.Tests
 			if (processParallel) query = query.AsParallel();
 
 			var result = query
-				.Select(x => BuildRandomWord(minSize, maxSize, false))
+				.Select(x => BuildRandomWord(minSize, maxSize))
 				.ToList();
 
 			Console.WriteLine("Built words: {0}", wordCount);
