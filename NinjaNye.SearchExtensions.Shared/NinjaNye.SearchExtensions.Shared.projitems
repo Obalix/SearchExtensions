@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>f6883f08-957d-4bda-8465-f80e4005baa0</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>NinjaNye.SearchExtensions.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ChildSearchBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EnumerableChildSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EnumerableChildSearchBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EnumerableChildSelector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EnumerableChildStringSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EnumerableLevenshteinCompare.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EnumerableLevenshteinSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EnumerableSearchBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EnumerableSoundexSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EnumerableStringSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EnumerableStructSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FluentChildSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FluentLevenshteinSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FluentSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FluentStringSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ExpressionBuilders\ContainsExpressionBuilder\EnumerableContainsExpressionBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ExpressionBuilders\ContainsExpressionBuilder\QueryableContainsExpressionBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ExpressionBuilders\EndsWithExpressionBuilder\EnumerableEndsWithExpressionBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ExpressionBuilders\EndsWithExpressionBuilder\QueryableEndsWithExpressionBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ExpressionBuilders\EnumerableExpressionHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ExpressionBuilders\EqualsExpressionBuilder\EnumerableEqualsExpressionBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ExpressionBuilders\EqualsExpressionBuilder\ExpressionBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ExpressionBuilders\EqualsExpressionBuilder\QueryableEqualsExpressionBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ExpressionBuilders\ExpressionHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ExpressionBuilders\ExpressionMethods.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ExpressionBuilders\SoundexExpressionBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ExpressionBuilders\StartsWithExpressionBuilder\EnumerableStartsWithExpressionBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ExpressionBuilders\StartsWithExpressionBuilder\QueryableStartsWithExpressionBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\StringExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Levenshtein\LevenshteinDistance.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Levenshtein\LevenshteinProcessor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Ranked.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QueryableChildSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QueryableChildSearchBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QueryableChildSelector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QueryableChildStringSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QueryableSearchBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QueryableStringSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QueryableStructSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RankedType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SearchBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SearchOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SearchTermCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SearchType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Soundex\SoundexProcessor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Validation\Ensure.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Visitors\SwapExpressionVisitor.cs" />
+  </ItemGroup>
+</Project>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinjaNye.SearchExtensions", "NinjaNye.SearchExtensions\NinjaNye.SearchExtensions.csproj", "{60B8E347-999F-4EE2-8172-9367D4F71860}"
 EndProject
@@ -13,7 +13,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinjaNye.SearchExtensions.T
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{35E478DF-0651-48E1-8F07-F8DBE2689088}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NinjaNye.SearchExtensions.Shared", "NinjaNye.SearchExtensions.Shared\NinjaNye.SearchExtensions.Shared.shproj", "{F6883F08-957D-4BDA-8465-F80E4005BAA0}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		NinjaNye.SearchExtensions.Shared\NinjaNye.SearchExtensions.Shared.projitems*{60b8e347-999f-4ee2-8172-9367d4f71860}*SharedItemsImports = 4
+		NinjaNye.SearchExtensions.Shared\NinjaNye.SearchExtensions.Shared.projitems*{f6883f08-957d-4bda-8465-f80e4005baa0}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -41,5 +47,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{60B8E347-999F-4EE2-8172-9367D4F71860} = {35E478DF-0651-48E1-8F07-F8DBE2689088}
+		{F6883F08-957D-4BDA-8465-F80E4005BAA0} = {35E478DF-0651-48E1-8F07-F8DBE2689088}
 	EndGlobalSection
 EndGlobal
